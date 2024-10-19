@@ -33,7 +33,7 @@ function App() {
     const imageData = canvas.toDataURL('image/jpeg');
 
     try {
-      await fetch('http://localhost:5000/upload', {
+      await fetch('http://100.20.92.101:5000/upload', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
